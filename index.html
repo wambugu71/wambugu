@@ -49,57 +49,179 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="tab" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/data.jpeg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Kennedy Wambugu Kinyua</a></h1>
-				<span class="position"><a href="#">Data Analyst | Machine  learning enginner | Mathematical Modeller</a> in Kenya</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+	
 
-			<div class="colorlib-footer">
-				<p><small>&copy;
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved.
-</span> <span>Designed by <a href="#" target="_blank">Wambugu Kinyua</a></span> <span></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<style>
+		 
+			
+		  .navbar {
+			background-color: #343a78; /* Dark background color */
+			padding: 15px 20px;
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+		  }
+	  
+		  .navbar-brand {
+			color: #ffffff;
+			font-size: 1.8rem;
+			font-weight: 600;
+		  }
+	  
+		  .navbar-toggler-icon {
+			background-color: #ffffff;
+		  }
+	  
+		  .navbar-nav {
+			margin-left: auto;
+		  }
+	  
+		  .nav-item {
+			margin: 0 15px;
+		  }
+	  
+		  .nav-link {
+			color: #ffffff;
+			font-size: 1rem;
+			transition: color 0.3s ease-in-out;
+		  }
+	  
+		  .nav-link:hover {
+			color: #dae1e7;
+		  }
+	  
+	  
+		  .position {
+			display: block;
+			margin-bottom: 20px;
+			color: #007bff;
+			font-weight: 600;
+		  }
+		  .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 80%;
+        }
 
-		</aside>
+        .card {
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            margin: 10px;
+			background-image:url(images/data_.jpg);
+        }
+		footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #131010;
+            color: #ffffff;
+            position: fixed;
+            bottom: 0;
+            width: 100%; }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #666666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 1em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #4caf50;
+            color: #ffffff;
+            cursor: pointer;
+        }
+		</style>
+
+
+	  
+	  <nav class="navbar navbar-expand-lg">
+		<h1>Kennedy Wambugu Kinyua</h1>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#colorlib-hero" data-nav-section="home">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_about" data-nav-section="about">About</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_services" data-nav-section="services">Services</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_skills" data-nav-section="skills">Skills</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_education" data-nav-section="education">Education</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_exp" data-nav-section="experience">Experience</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="./index.html#ken_contact" data-nav-section="contact">Contact</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	</head> 
+<body>
+	
 
 		<div id="colorlib-main">
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
 				   	<li style="background-image: url(images/data_.jpg);">
+					
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Wambugu Kinyua</h1>
+					   					<div class="desc" >
+											<!--div  class="container">
+												<div class="card">
+													<h2>Text Card</h2>
+													<p>This is a card with text content. You can customize it as needed.</p>
+													<a href="#" class="btn">Read More</a>
+												</div>
+											
+												
+												<div class="card">
+													<img src="https://placekitten.com/300/150" alt="Card Image">
+												</div>
+											</div-->
+										
+											<!--h1 style="align-items: center;">Hi, <br> Iam Wambugu Kinyua</h1-->
+											<div class="card">
+												
+												<h1>Hi👋, <br> Iam Wambugu Kinyua.</h1>
+										
+											</div>
+										</div>
+						   					
 						   					
 												
 											</div>
@@ -113,7 +235,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 			  	</div>
 			</section>
 
-			<section class="colorlib-about" data-section="about">
+			<section class="colorlib-about" data-section="about" id = "ken_about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-12">
@@ -161,7 +283,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 
 			
-			<section class="colorlib-services" data-section="services">
+			<section class="colorlib-services" data-section="services" id = "ken_services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -236,7 +358,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</div>
 
-			<section class="colorlib-skills" data-section="skills">
+			<section class="colorlib-skills" data-section="skills" id = "ken_skills">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -318,7 +440,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</section>
 
-			<section class="colorlib-education" data-section="education">
+			<section class="colorlib-education" data-section="education" id = "ken_education">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -388,7 +510,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</section>
 
-			<section class="colorlib-experience" data-section="experience">
+			<section class="colorlib-experience" data-section="experience" id = "ken_exp">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -447,7 +569,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 			
 
 	
-			<section class="colorlib-contact" data-section="contact">
+			<section class="colorlib-contact" data-section="contact" id ="ken_contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -511,7 +633,12 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					</div>
 				</div>
 			</section>
-
+			<footer>
+				<small>&copy;
+					Copyright <script>document.write(new Date().getFullYear());</script> 
+					All rights reserved.
+					</span> <span>Designed by <a href="#" target="_blank">Wambugu Kinyua</a></span> <span></span></small>
+			</footer>
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
@@ -535,6 +662,9 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 
+	
+
 	</body>
-</html>
+
+		</html>
 
