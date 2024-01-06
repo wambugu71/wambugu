@@ -1,7 +1,7 @@
 import pandas as  pd
 import  dtale
 import  streamlit as  st
-filename = "C:/Users/kenli/auto_eda/auto-mpg.csv"
+filename = "auto-mpg.csv"
 df = pd.read_csv(filename).head()
 d = dtale.show(df)
 st.write("dtale  demo")
