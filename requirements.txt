@@ -1,3 +1,0 @@
-dtale
-pandas 
-streamlit
